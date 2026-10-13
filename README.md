@@ -1,4 +1,4 @@
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME)
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/[YOUR_GITHUB_USERNAME/YOUR_REPO_NAME](https://github.com/saifsaifchishti-boop/files-bot)
 
 > ☝️ Upar wale link mein `YOUR_GITHUB_USERNAME` aur `YOUR_REPO_NAME` apne GitHub username / repo ke naam se badal do (README.md edit karke).
 > Ye button sirf **public** repo par kaam karta hai. Private repo ho to Heroku → Deploy → GitHub se connect karo (steps `HEROKU.md` mein).
