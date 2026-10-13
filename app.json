@@ -1,0 +1,13 @@
+{
+  "name": "mehfooz-bot",
+  "description": "Mehfooz WhatsApp group bot + dashboard",
+  "stack": "heroku-24",
+  "env": {
+    "HOST": { "value": "0.0.0.0" },
+    "PANEL_PASSWORD": { "description": "Dashboard password (change it! default would be admin/admin)", "required": true },
+    "UPSTASH_REDIS_REST_URL": { "description": "From upstash.com → Redis → REST API. Keeps settings + WhatsApp login after restarts.", "required": true },
+    "UPSTASH_REDIS_REST_TOKEN": { "description": "Upstash REST token", "required": true },
+    "GEMINI_API_KEY": { "description": "Optional (aistudio.google.com)", "required": false },
+    "GROQ_API_KEY": { "description": "Optional (console.groq.com)", "required": false }
+  }
+}
